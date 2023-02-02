@@ -1,0 +1,33 @@
+form{
+    background-color: white;
+    padding: 15px;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color:rgb(190, 190, 190);
+    border-radius: 25px;
+    height: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(116, 116, 116);
+}
+
+input[type=text] {
+    padding:10px;
+    margin:10px 0;
+    width: 60%;
+}
+
+button{
+    color: white;
+    background-color: rgb(24 102 171);
+    border-style: solid;
+    border-color: rgb(24 102 171);
+    border-radius: 25px;
+    padding: 5px;
+    position: relative;
+    left: 6%;
+    width: 120px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import PostPresenter from './PostPresenter';
+import "./PostMapper.css"
 
 // Takes in the array as props from App
 

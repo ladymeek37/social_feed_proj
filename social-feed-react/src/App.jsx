@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import NavBar from "./Components/NavBar";
 import PostForm from "./Components/PostForm";
 import PostMapper from "./Components/PostMapper";
-import './App.css'
+import './App.css';
+
 const App = (props) => {
   const [posts, setPost] = useState([
     {
