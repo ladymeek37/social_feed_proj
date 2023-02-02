@@ -1,9 +1,11 @@
 import React from 'react';
+import "./NavBar.css";
 
 const NavBar = (props) => {
     return ( 
-        <header>
-            Social Feed
+        <header className = "header">
+            Social 
+            <h className = "text-muted">Feed</h>
         </header>
      );
 }

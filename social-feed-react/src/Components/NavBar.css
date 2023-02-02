@@ -1,0 +1,13 @@
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    letter-spacing: 1px;
+    color: black;
+    background-color: white;
+    padding: 35px;
+    width:110%;
+    height: 110%;
+    margin-top: -10px;
+    box-shadow: 0 7px 2px -2px rgb(238, 235, 235);
+
+}
