@@ -6,9 +6,11 @@ import PostPresenter from './PostPresenter';
 const PostMapper = (props) => {
     return ( 
         <ol>
-            {props.posts.map(el => <li>{el.name}</li>)}
+            {props.posts.map(el => <PostPresenter el={el}/>)}
+
         </ol>
      );
 }
  
 export default PostMapper;
+

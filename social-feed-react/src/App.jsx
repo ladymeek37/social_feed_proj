@@ -19,10 +19,16 @@ const App = (props) => {
     },
   ]);
 
+  const addPost = (post) => {
+    let tempPost = [post, ...posts];
+    setPost(tempPost)
+
+  }
+
   return (
     <div>
       <NavBar />
-      <PostForm />
+      <PostForm addPost = {addPost}/>
       <PostMapper posts = {posts}/>
     </div>
   );

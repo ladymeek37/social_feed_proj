@@ -7,15 +7,21 @@ import React, { useState } from 'react';
 const PostForm = (props) => {
 
     const [name, setName] = useState('');
-    const [post, setPost] = useState('');
+    const [text, setText] = useState('');
 
-    function onSubmit(formEvent){
+    function onSubmit(event){
+
+        event.preventDefault()
 
         const formValuesObject = {
             name: name,
-            post: post,
+            text: text,
+            isLiked: false,
+            isDisliked: false,
         }
          
+        props.addPost(formValuesObject);
+
         console.log(formValuesObject);
     }
 
@@ -24,7 +30,7 @@ const PostForm = (props) => {
             <label>Name  </label>
             <input type='text' value={name} onChange = {(event) => setName(event.target.value)} /> <br/>
             <label>Post  </label>
-            <input type='text' value={post} onChange = {(event) => setPost(event.target.value)}/> <br/>
+            <input type='text' value={text} onChange = {(event) => setText(event.target.value)}/> <br/>
             <button type='submit'>Create</button>
         </form>
      );
