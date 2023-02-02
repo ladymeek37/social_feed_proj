@@ -5,8 +5,10 @@ import React from 'react';
 const PostPresenter = (post) => {
     return ( 
         <div>
-            <li> {post.el.name} </li>
-            <li> {post.el.text}</li>
+            <ul> {post.el.name} </ul>
+            <ul> {post.el.text}</ul>
+            <br/>
+            <br/>
         </div>
      );
 }

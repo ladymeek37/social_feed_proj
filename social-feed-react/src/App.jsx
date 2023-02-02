@@ -6,14 +6,14 @@ import PostMapper from "./Components/PostMapper";
 const App = (props) => {
   const [posts, setPost] = useState([
     {
-      name: "Lady ",
-      text: " ",
+      name: "Lady",
+      text: "Hello! Hope everyone has a wonderful day! :)",
       isLiked: false,
       isDisliked: false,
     },
     {
-      name: "Pascal ",
-      text: " ",
+      name: "Rascal",
+      text: "Bark Bark",
       isLiked: false,
       isDisliked: false,
     },
