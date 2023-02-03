@@ -15,8 +15,16 @@ section{
     letter-spacing: 1px;
 }
 
-input[type=text] {
-    padding:10px;
-    margin:10px 0;
-    width: 60%;
+
+.active_like{
+    background-color:rgb(114, 208, 114);
 }
+.active_dislike{
+    background-color: rgb(204, 89, 89);
+}    
+
+a{
+    position: relative;
+    left: 80%;
+}
+
