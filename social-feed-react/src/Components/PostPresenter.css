@@ -18,9 +18,11 @@ section{
 
 .active_like{
     background-color:rgb(114, 208, 114);
+    border-radius: 50%;
 }
 .active_dislike{
-    background-color: rgb(204, 89, 89);
+    background-color: rgb(201, 87, 87);
+    border-radius: 50%;
 }    
 
 a{

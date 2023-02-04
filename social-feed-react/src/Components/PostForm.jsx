@@ -28,9 +28,10 @@ const PostForm = (props) => {
 
     return ( 
         <form onSubmit={onSubmit} class="rounded">
-            <label>Name &nbsp;&nbsp;&nbsp; </label>
+            <br/>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name &nbsp;&nbsp;&nbsp; </label>
             <input type='text' value={name} onChange = {(event) => setName(event.target.value)} /> <br/>
-            <label>Post&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Post&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type='text' value={text} onChange = {(event) => setText(event.target.value)}/> 
             <button type='submit'>Create</button>
         </form>

@@ -1,7 +1,7 @@
 import React from 'react';
-import "./PostPresenter.css"
-import likeLogo from './Assets/like-icon.png'
-import dislikeLogo from './Assets/dislike-icon.png'
+import "./PostPresenter.css";
+import likeLogo from './Assets/like-icon.png';
+import dislikeLogo from './Assets/dislike-icon.png';
 import { useState } from 'react';
 
 
@@ -44,7 +44,7 @@ const handleDislikeClick = () => {
             <ul> {post.el.text}</ul>
             <br/>
             <a onClick={(e) => handleLikeClick(e)}><img className ={likeButtonClass} src={likeLogo} alt= "like_icon" height="35" width="35"/></a>
-            <a onClick={(e) => handleDislikeClick(e)}><img className ={dislikeButtonClass} src={dislikeLogo} alt= "dislike_icon" height="27" width="27"/></a>
+            <a onClick={(e) => handleDislikeClick(e)}><img className ={dislikeButtonClass} src={dislikeLogo} alt= "dislike_icon" height="35" width="35"/></a>
         </section>
      );
 }
